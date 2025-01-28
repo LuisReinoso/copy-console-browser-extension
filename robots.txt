@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+Sitemap: https://luisreinoso.dev/copy-console-browser-extension/sitemap.xml
+
+# Block access to specific files and directories
+Disallow: /private/
+Disallow: /*.json$
+Disallow: /*.txt$
+Disallow: /*.md$
+Disallow: /README.md
+Disallow: /LICENSE 
